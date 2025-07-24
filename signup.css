@@ -1,0 +1,76 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #fffaf3; /* Soft pet shop background */
+  color: #333;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  margin-top: 60px;
+  color: #2d2d2d;
+}
+
+form {
+  background-color: #ffffff;
+  padding: 30px 40px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  max-width: 450px;
+  width: 90%;
+  margin: 20px 0;
+}
+
+label {
+  font-weight: 600;
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin-top: 4px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+
+button {
+  background-color: #ffc107; /* Yellow highlight */
+  color: #000;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 6px;
+  font-size: 15px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: 100%;
+}
+
+button:hover {
+  background-color: #e6ac00;
+}
+
+/* Link section */
+p {
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+a {
+  color: #0077cc;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}

@@ -1,0 +1,163 @@
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #FFF8F0;
+  color: #333333;
+}
+
+
+h2 {
+  text-align: center;
+  margin-top: 30px;
+  color: #1b1b1b;
+}
+
+.offers-banner {
+  background-color: #fbdedc;
+  padding: 30px 20px;
+  text-align: center;
+  margin: 30px auto;
+  max-width: 1200px;
+  border-radius: 10px;
+}
+
+.offers-banner h2{
+  margin: 0;
+}
+
+.offers-banner img {
+  max-width: 100%;
+  height: auto;
+  margin-top: 15px;
+  border-radius: 10px;
+}
+
+
+section {
+  margin: 40px auto;
+  max-width: 1200px;
+  padding: 20px;
+  background-color: #fff8f4;
+  border-radius: 10px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.05);
+}
+
+section img {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  margin: 15px;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+}
+
+section img:hover {
+  transform: scale(1.05);
+}
+
+
+.top-icons {
+  display: flex;
+  justify-content: flex-end;
+  background-color: #8B5E3C;
+  padding: 10px 20px;
+}
+
+.top-icons .icon {
+  width: 28px;
+  height: 28px;
+  margin-left: 15px;
+  transition: transform 0.2s ease-in-out;
+}
+
+.top-icons .icon:hover {
+  transform: scale(1.1);
+}
+
+.main-nav {
+  background-color: #8B5E3C;
+  padding: 12px 0;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links li {
+  margin: 0 20px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #FFF8F0; 
+  font-size: 17px;
+  font-weight: 500;
+  padding: 8px 12px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.nav-links a:hover {
+  background-color: #E76F51;
+  color: #FFF;
+}
+
+
+footer {
+  background-color: #8B5E3C; 
+  color: #FFF8F0;
+  padding: 40px 20px 20px 20px;
+  font-size: 15px;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.footer-section {
+  flex: 1;
+  min-width: 200px;
+  margin: 10px;
+}
+
+.footer-section h3 {
+  color: #FFF;
+  margin-bottom: 15px;
+}
+
+.footer-section p,
+.footer-section a,
+.footer-section li {
+  color: #FFF8F0;
+  text-decoration: none;
+  margin: 5px 0;
+}
+
+.footer-section ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.footer-section li a:hover {
+  color: #E76F51;
+}
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.footer-bottom hr {
+  border-color: #FFF8F0;
+  opacity: 0.3;
+}

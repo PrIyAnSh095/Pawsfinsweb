@@ -1,0 +1,41 @@
+Pet Shop Color Palette
+
+1. PRIMARY COLOR:
+   Name: Light Brown / Tan
+   HEX: #D9B382
+   Usage: Main highlights, buttons, backgrounds
+
+2. SECONDARY COLOR:
+   Name: Warm Orange
+   HEX: #F4A261
+   Usage: CTA buttons, price tags, hover states
+
+3. ACCENT COLOR:
+   Name: Soft Sage Green
+   HEX: #A8C686
+   Usage: Subtle accents, success tags, service highlights
+
+4. BACKGROUND COLOR:
+   Name: Cream / Off White
+   HEX: #FFF8F0
+   Usage: Page background, section wrappers
+
+5. TEXT COLOR (PRIMARY):
+   Name: Charcoal / Dark Brown
+   HEX: #333333
+   Usage: Main body text
+
+6. NAVIGATION BAR COLOR:
+   Name: Medium Brown
+   HEX: #8B5E3C
+   Usage: Top navigation bar background
+
+7. HOVER / ACTIVE LINK COLOR:
+   Name: Deep Orange
+   HEX: #E76F51
+   Usage: Hovered links, active states
+
+8. BORDER / DIVIDER COLOR:
+   Name: Light Gray
+   HEX: #DDDDDD
+   Usage: Table borders, section dividers

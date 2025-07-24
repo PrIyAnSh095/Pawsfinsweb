@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Products | PetShop</title>
+  <link rel="stylesheet" href="../../css/user/product.css">
+
+</head>
+<body>
+
+<div class="top-icons">
+    <div class="admin-logo">
+      <a href="cart.html" title="View Cart">
+        <img src="../../../resources/images/cart_icon.gif" alt="Cart" class="icon cart-icon">
+      </a>
+      <a href="profile.html" title="Profile">
+        <img src="../../../resources/images/user_icon.gif" alt="Profile" class="icon profile-icon">
+      </a>
+    </div>
+  </div>
+
+  <nav class="main-nav">
+    <ul class="nav-links">
+      <li><a href="home.html">Home</a></li>
+      <li><a href="products.html">Products</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="about.html">About Us</a></li>
+    </ul>
+  </nav>
+
+
+
+  <h1>Our Products</h1>
+
+  <section class="filters">
+    <h2>Filter</h2>
+
+    <div class="category-filter">
+      <label for="category">Category:</label>
+      <select id="category" name="category">
+        <option value="all">All</option>
+        <option value="food">Food</option>
+        <option value="toys">Toys</option>
+        <option value="accessories">Accessories</option>
+      </select>
+    </div>
+
+    <div class="price-filter">
+      <label for="price">Max Price:</label>
+      <input type="number" id="price" name="price" placeholder="Enter max price">
+    </div>
+
+    <button type="button">Apply Filters</button>
+  </section>
+
+     <h2 class="listh2">Available Products</h2><br/><br/>
+
+
+  <section class="product-list">
+ 
+    <div class="product-card">
+      <img src="../../../resources/images/product1.jpg" alt="Product 1">
+      <h3>Product Name 1</h3>
+      <p>Category: Food</p>
+      <p>Price: ₹499</p>
+      <button class="buy-btn">Buy Now</button>
+    </div>
+
+    <div class="product-card">
+      <img src="../../../resources/images/product2.jpg" alt="Product 2">
+      <h3>Product Name 2</h3>
+      <p>Category: Toys</p>
+      <p>Price: ₹299</p>
+      <button class="buy-btn">Buy Now</button>
+    </div>
+
+    <div class="product-card">
+      <img src="../../../resources/images/product3.jpg" alt="Product 3">
+      <h3>Product Name 3</h3>
+      <p>Category: Accessories</p>
+      <p>Price: ₹199</p>
+      <button class="buy-btn">Buy Now</button>
+    </div>
+  </section>
+
+
+
+   <footer>
+    <div class="footer-container">
+
+      <div class="footer-section contact-info">
+        <h3>Contact Us</h3>
+        <p>Ahmedabad, Gujarat, India</p>
+        <p>Phone: +91 98765 43210</p>
+        <p>Email: support@petshop.com</p>
+        <p><a href="#">Chat on WhatsApp</a></p>
+      </div>
+
+      <div class="footer-section useful-links">
+        <h3>Useful Links</h3>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="products.html">Products</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="login.html">Login</a></li>
+          <li><a href="signup.html">Sign Up</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-section social-media">
+        <h3>Connect With Us</h3>
+        <ul>
+          <li><a href="#">Instagram</a></li>
+          <li><a href="#">Facebook</a></li>
+          <li><a href="#">X (Twitter)</a></li>
+        </ul>
+      </div>
+
+    </div>
+
+    <div class="footer-bottom">
+      <hr />
+      <p>@ 2025 Paws&Fins. All rights reserved.</p>
+    </div>
+  </footer>
+
+
+</body>
+</html>
