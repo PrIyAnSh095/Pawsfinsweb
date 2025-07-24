@@ -1,2 +1,2 @@
 # Pawsfinsweb
-Paws and fibs rip off
+Paws and fins rip off
